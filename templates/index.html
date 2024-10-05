@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BHUMIS-IOT-AUTOMATION</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{url_for('static',filename='mystyle.css')}}"
+    />
+  </head>
+  <body>
+    <div class="interItems">
+      <h1>bhumis automation using python arduino flask</h1>
+      <div class="interactiveButtons">
+        <form action="#" method="POST">
+          <button class="onButton" onclick="turnOn(red)" name="red" value="red">
+            Red
+          </button>
+          <button
+            class="onButton"
+            onclick="turnOn(yellow)"
+            name="yellow"
+            value="yellow"
+          >
+            Yellow
+          </button>
+          <button
+            class="onButton"
+            onclick="turnOn(green)"
+            name="green"
+            value="green"
+          >
+            Green
+          </button>
+          <button
+            class="onButton"
+            onclick="turnOn(light)"
+            name="light"
+            value="light"
+          >
+            Light
+          </button>
+          <button class="offButton" onclick="ledOff()" name="off" value="off">
+            Off
+          </button>
+        </form>
+      </div>
+      <button
+        class="disconnectButton"
+        onclick="disconnect()"
+        name="dis"
+        value="dis"
+      >
+        disconnect
+      </button>
+    </div>
+  </body>
+</html>

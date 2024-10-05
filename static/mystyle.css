@@ -1,0 +1,18 @@
+.interItems {
+  text-align: center;
+}
+.interactiveButtons {
+  padding: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+.onButton {
+  width: 10em;
+  height: 10em;
+}
+.offButton {
+  width: 10em;
+  height: 10em;
+}
